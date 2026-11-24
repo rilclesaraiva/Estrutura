@@ -18,10 +18,10 @@ The document and the two templates are meant to be used together.
 
 ## Using it in a project
 
-Add one line to the project's `CLAUDE.md`:
+Add this same line to the `CLAUDE.md` of any project, new or old. Nothing to edit: the AI writes the applied version itself once you accept or refuse each rule:
 
 ```
-Estrutura universal: repositório rilclesaraiva/Estrutura. Na primeira mensagem de cada sessão, ler só o arquivo VERSAO de lá. Se for mais novo que a versão aplicada, listar o que mudou (topo do CHANGELOG.md) e perguntar ao mantenedor se aplica; nunca aplicar sozinha. Se o repositório não abrir, avisar e seguir com este arquivo. Versão aplicada: 20/11/2026.
+Estrutura universal: repositório rilclesaraiva/Estrutura. Na primeira mensagem de cada sessão, ler o VERSAO e o CHANGELOG.md de lá. Sem "Versão aplicada" neste arquivo, ou com uma anterior à do VERSAO, conferir o conteúdo: listar as regras do CHANGELOG que este CLAUDE.md ainda não cumpre e que não estejam em "Decisões recusadas", e perguntar ao mantenedor se aplica; nunca aplicar sozinha. Depois de aplicar ou recusar tudo, registrar aqui "Versão aplicada: <VERSAO>". Se o repositório não abrir, avisar e seguir com este arquivo.
 ```
 
 ## License
